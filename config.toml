@@ -1,4 +1,21 @@
 baseURL = "http://matthewiverloder.com/"
 languageCode = "en-us"
 title = "Matthew Iver Loder"
-theme = "ananke"
+author="Matthew Loder"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+theme = "origin"
+
+[params]
+  description = "simple hugo theme"
+  featured = true
+  cssonly = false
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
