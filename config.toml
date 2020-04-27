@@ -1,0 +1,4 @@
+baseURL = "http://matthewiverloder.com/"
+languageCode = "en-us"
+title = "Matthew Iver Loder"
+theme = "ananke"
