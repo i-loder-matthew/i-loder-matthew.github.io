@@ -1,6 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
+  background-color: white;
 }
 
 .header {
@@ -55,7 +56,7 @@ a {
 }
 
 a#main:hover {
-  color: #eb5e34;
+  color: #ffbdab;
 }
 
 
