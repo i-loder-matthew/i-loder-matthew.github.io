@@ -52,9 +52,13 @@ a {
   color: black;
   font-style: normal;
   text-decoration: none;
-
 }
 
-a:hover {
+a#main:hover {
+  color: #eb5e34;
+}
+
+
+a#about:hover {
   color: #59acff;
 }
