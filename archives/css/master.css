@@ -49,6 +49,11 @@ body {
   max-height: 40%;
 }
 
+.footer {
+  padding: 20px;
+  background-color: black;
+}
+
 a {
   color: black;
   font-style: normal;
