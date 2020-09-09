@@ -1,0 +1,41 @@
+I"�<!-- I'm an aspiring linguist, and a recent graduate from the Rutgers University with a B.A. in Linguistics. There's about a million reasons I love Linguistics. I love languages. I love puzzles. I love solving problems. And as a linguist, I get to focus on all of that. In particular, I'm interested in claims that our linguistic theories are meant to represent cognitive reality. While I like the idea, I'm not always sure it passes muster. I care about the cognitive and biological mechanisms of language. As a young almost-linguist, I am excited to explore how tools from different fields (computational linguistics, psycholinguistics, neuroscience) can be put to the test to make discoveries about the nature of language in the mind. Within syntax, in particular, I'm eager to see how we can use various sorts of empirical data (yes judgements, but also processing data, or information about neurological localization) in order to refine our grammatical theories, with the aim of achieving greater explanatory adequacy.
+
+-->
+
+<p><img src="assets/images/me.jpeg" width="300" height="400" id="me" />
+<strong>About me</strong></p>
+
+<p>I’m an aspiring linguist, and a recent graduate from Rutgers University with a B.A. in linguistics. I work primarily in syntax and semantics, with broad ranging interests aimed at understanding the cognitive representations of linguistic knowledge and linguistic processes.</p>
+
+<p>I’ve done work with Viviane Déprez to explore topics in French linguistics like the pragmatics of wh-movement and the prosody of sentences with multiple negative expressions. In the summer of 2019, as a CSLI intern at Stanford University, I had the wonderful opportunity to work with Sebastian Schuster and Judith Degen on a project exploring the learning processes underlying semantic adaptation.</p>
+
+<p>Going forward, I’m interested in exploring ways to use computational tools to model syntax, finding new ways to form and test hypotheses about the underlying nature of our grammatical knowledge.</p>
+
+<!--
+On my gap year, I'm starting a new research project exploring the computational implementability of a fragment of a grammar
+
+-->
+
+<!--
+___
+
+**In my free time...**
+
+This past year, I've started learning to knit, and I'm absolutely loving it. I also spend copious amounts of time reading anything I can get my hands on (and not just about linguistics). Sometimes, I write.  
+
+-->
+
+<!--
+
+RESEARCH TO DOs:
+  - move all of this to a separate document
+  - reach out to Thomas Graf to learn more about his work
+  - revisit your syntax research paper
+Questions that interest me:
+Broad architectural questions about the syntax excite me. What operations occur in what order? How does the syntax interact with the interfaces? Can we work towards a more precise notion of performance, one that we can then use to refine our
+
+Many people make claims that the syntax represents cognitive reality, but I'm not so certain this passes muster. If this is our end goal, not merely to describe grammar, but to capture **our knowledge** of grammar, then what can we do to achieve this?
+
+SO TO BE CLEAR - 3 research projects to think about: NSF proposal, independent project, project with Kalen
+-->
+:ET

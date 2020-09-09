@@ -1,0 +1,6 @@
+- name: about
+  link: /
+- name: research
+  link: /research.html
+- name: reading
+  link: /reading.html
