@@ -1,36 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>home</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Crimson+Text&family=Hind+Madurai:wght@300&family=Vollkorn&family=Karla:wght@400;700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="site-title">
-      <h2 id="name">Matthew Iver Loder</h2>
-    </div>
-    <div class="sidebar">
-  <div class="sidebar-text">
-    
-      <a href="/" class="current" >
-        about
-      </a>
-    
-      <a href="/research.html" >
-        research
-      </a>
-    
-      <a href="/reading.html" >
-        reading
-      </a>
-    
-  </div>
-</div>
-
-    <div class="content-container">
-      <div class="content">
-        <!-- I'm an aspiring linguist, and a recent graduate from the Rutgers University with a B.A. in Linguistics. There's about a million reasons I love Linguistics. I love languages. I love puzzles. I love solving problems. And as a linguist, I get to focus on all of that. In particular, I'm interested in claims that our linguistic theories are meant to represent cognitive reality. While I like the idea, I'm not always sure it passes muster. I care about the cognitive and biological mechanisms of language. As a young almost-linguist, I am excited to explore how tools from different fields (computational linguistics, psycholinguistics, neuroscience) can be put to the test to make discoveries about the nature of language in the mind. Within syntax, in particular, I'm eager to see how we can use various sorts of empirical data (yes judgements, but also processing data, or information about neurological localization) in order to refine our grammatical theories, with the aim of achieving greater explanatory adequacy.
+I"â<!-- I'm an aspiring linguist, and a recent graduate from the Rutgers University with a B.A. in Linguistics. There's about a million reasons I love Linguistics. I love languages. I love puzzles. I love solving problems. And as a linguist, I get to focus on all of that. In particular, I'm interested in claims that our linguistic theories are meant to represent cognitive reality. While I like the idea, I'm not always sure it passes muster. I care about the cognitive and biological mechanisms of language. As a young almost-linguist, I am excited to explore how tools from different fields (computational linguistics, psycholinguistics, neuroscience) can be put to the test to make discoveries about the nature of language in the mind. Within syntax, in particular, I'm eager to see how we can use various sorts of empirical data (yes judgements, but also processing data, or information about neurological localization) in order to refine our grammatical theories, with the aim of achieving greater explanatory adequacy.
 
 -->
 
@@ -64,12 +32,6 @@ Broad architectural questions about the syntax excite me. What operations occur 
 
 Many people make claims that the syntax represents cognitive reality, but I'm not so certain this passes muster. If this is our end goal, not merely to describe grammar, but to capture **our knowledge** of grammar, then what can we do to achieve this?
 
-SO TO BE CLEAR - 3 research projects to think about: NSF proposal, independent project
-
-ADD DARK MODE
+SO TO BE CLEAR - 3 research projects to think about: NSF proposal, independent project, project with Kalen
 -->
-
-      </div>
-    </div>
-  </body>
-</html>
+:ET

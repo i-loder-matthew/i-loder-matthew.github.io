@@ -26,7 +26,6 @@ On my gap year, I'm starting a new research project exploring the computational 
 -->
 
 
-___
 
 ### In my free time...
 
@@ -46,5 +45,7 @@ Broad architectural questions about the syntax excite me. What operations occur 
 
 Many people make claims that the syntax represents cognitive reality, but I'm not so certain this passes muster. If this is our end goal, not merely to describe grammar, but to capture **our knowledge** of grammar, then what can we do to achieve this?
 
-SO TO BE CLEAR - 3 research projects to think about: NSF proposal, independent project, project with Kalen
+SO TO BE CLEAR - 3 research projects to think about: NSF proposal, independent project
+
+ADD DARK MODE
 -->

@@ -1,18 +1,20 @@
 - section: Wh Questions
   items:
     - title: On what grounds - Information, authority and use of wh in-situ in French
-      subline: Advisor':' Viviane Déprez
-      description: My undergraduate honors thesis, hot off the presses! This project explored a novel way in which the usage of wh questions in French might be influenced by information structure.
-      link:
+      subline: "Advisor: Viviane Déprez"
+      description:
+      link-text: draft
+      link: /assets/files/loder_thesis.pdf
 - section: Multiple Negations and NCIs
   items:
     - title: Perception of the prosody of multiple negations in French
-      subline: CELL Lab ':' Jeremy Yeaton and Viviane Déprez
+      subline: "CELL Lab: Jeremy Yeaton & Viviane Déprez"
       description:
       link:
 - section: Semantic Adaptation
   items:
     - title: Explaining away in semantic adaptation
-      subline:
+      subline: "ALPS Lab: Sebastian Schuster & Judith Degen"
       description:
+      link-text: presentation
       link:

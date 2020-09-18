@@ -1,3 +1,11 @@
+body {
+  /* font-family: 'Hind Madurai', sans-serif; */
+  font-family: 'Karla', sans-serif;
+  color: #353535;
+  /*background-color: #c2eaba;
+  background-image: linear-gradient(319deg, #c2eaba 0%, #c5f4e0 37%, #efc2cf 100%);*/
+}
+
 .site-title {
   font-family: 'Bungee Shade', cursive;
   font-size: 2em;
@@ -7,8 +15,8 @@
   top: 0;
   left: 0;
   padding: 0;
-  height: 50%;
-  width: 35%;
+  height: 325px;
+  width: 385px;
   position: fixed;
   background-color: #efe2ba;
   display: flex;
@@ -20,26 +28,9 @@
   padding: 25px;
 }
 
-body {
-  /* font-family: 'Hind Madurai', sans-serif; */
-  font-family: 'Karla', sans-serif;
-  background-color: #d1e0e8;
-  color: #353535;
-  /*background-color: #c2eaba;
-  background-image: linear-gradient(319deg, #c2eaba 0%, #c5f4e0 37%, #efc2cf 100%);*/
-}
-
-#me {
-  padding: 10px;
-  margin-left: 20px;
-  float: right;
-  border-radius: 15px;
-}
-
 a:link, a:visited {
-  color: #efefef;
+  color: #353535;
   text-decoration: none;
-  font-size: 120%;
   font-weight: bold;
 }
 
@@ -47,37 +38,99 @@ a.current {
   color: #fff6c7;
 }
 
-.sidebar {
+div.sidebar {
   z-index: 0;
-  top: 50%;
+  top: 325px;
   left: 0;
-  height: 100%;
-  width: 35%;
+  height: 325px;
+  width: 385px;
   position: fixed;
   overflow: auto;
   background-color: #5a6bad;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
 }
 
 .sidebar-text {
-  position: fixed;
-  top: 68%;
-  left: 15%;
+
 }
 
 .sidebar a {
   display: block;
   padding: 3px;
   text-align: center;
+  font-size: 120%;
+}
+
+div.content-container {
+  position: absolute;
+  width: 715px;
+  left: 385px;
+  top: 0;
+  min-height: 650px;
+  background-color: #d1e0e8;
+  font-size: 16px;
 }
 
 div.content {
-  min-height: 90%;
-  top: 10%;
-  right: 10%;
-  width: 50%;
-  font-size: 105%;
+  padding: 50px 60px 10px 30px;
   line-height: 1.5em;
-  position: absolute;
+  position: relative;
+}
+
+@media screen and (min-width: 1100px) {
+  div.site-title {
+    width: 35%;
+    font-size: calc(32px + 12 * ((100vw - 1100px) / 300));
+  }
+  div.sidebar {
+    width: 35%;
+    font-size: calc(16px + 6 * ((100vw - 1100px) / 300));
+  }
+  div.content-container {
+    left: 35%;
+    width: 65%;
+    font-size: calc(16px + 4 * ((100vw - 1100px) / 300));
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  div.site-title {
+    font-size: 44px;
+    width: 504px;
+  }
+  div.sidebar {
+    width: 504px;
+    font-size: 22px;
+  }
+  div.content-container {
+    left: 504px;
+    width: calc(100vw - 504px);
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-height: 650px) {
+  div.site-title {
+    height: 50%;
+  }
+  div.sidebar {
+    top: 50%;
+    height: 50%;
+  }
+  div.content-container {
+    min-height: 100%;
+  }
+}
+
+
+#me {
+  padding: 10px;
+  margin-left: 20px;
+  float: right;
+  border-radius: 15px;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */

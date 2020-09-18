@@ -6,6 +6,16 @@ title: Research
 <h1> Current Research </h1>
 {% for element in site.data.research %}
   <h3>{{ element.section }}</h3>
+  <ul>
+    {% for item in element.items %}
+      <li> {% if item.link %}<a href="{{ item.link }}"> {% endif %}<strong>{{ item.title }}</strong>{% if item.link %}</a>{% endif %}
+        <br>
+        <em>{{ item.subline }}</em>
+        <br>
+        <p>{{ item.description }}</p>
+      </li>
+    {% endfor %}
+  </ul>
 {% endfor %}
 
 
