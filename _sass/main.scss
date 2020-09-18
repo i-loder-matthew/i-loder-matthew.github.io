@@ -1,42 +1,67 @@
 .site-title {
   font-family: 'Bungee Shade', cursive;
-  text-align: center;
   font-size: 2em;
-  padding-top: 30px;
+  text-align: center;
+  color: #4056a1;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  padding: 0;
+  height: 50%;
+  width: 35%;
+  position: fixed;
+  background-color: #efe2ba;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#name {
+  padding: 25px;
 }
 
 body {
   /* font-family: 'Hind Madurai', sans-serif; */
-  font-family: 'Vollkorn', serif;
-  background-color: #f7f7f2;
+  font-family: 'Karla', sans-serif;
+  background-color: #d1e0e8;
+  color: #353535;
   /*background-color: #c2eaba;
   background-image: linear-gradient(319deg, #c2eaba 0%, #c5f4e0 37%, #efc2cf 100%);*/
 }
 
 #me {
   padding: 10px;
-  margin-right: 10px;
-  float: left;
+  margin-left: 20px;
+  float: right;
   border-radius: 15px;
 }
 
 a:link, a:visited {
-  color: black;
+  color: #efefef;
   text-decoration: none;
   font-size: 120%;
+  font-weight: bold;
 }
 
 a.current {
-  color: grey;
+  color: #fff6c7;
 }
 
 .sidebar {
-  margin-left: 40px;
-  padding: 0;
-  width: 250px;
-  position: fixed;
+  z-index: 0;
+  top: 50%;
+  left: 0;
   height: 100%;
+  width: 35%;
+  position: fixed;
   overflow: auto;
+  background-color: #5a6bad;
+}
+
+.sidebar-text {
+  position: fixed;
+  top: 68%;
+  left: 15%;
 }
 
 .sidebar a {
@@ -46,11 +71,13 @@ a.current {
 }
 
 div.content {
-  margin-left: 290px;
-  padding: 80px 30px 10px 10px;
-  height: 1000px;
-  max-width: 800px;
-  font-size: 130%;
+  min-height: 90%;
+  top: 10%;
+  right: 10%;
+  width: 50%;
+  font-size: 105%;
+  line-height: 1.5em;
+  position: absolute;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -70,4 +97,8 @@ div.content {
     text-align: center;
     float: none;
   }
+}
+
+.section-heading {
+  color: #3c6c6e;
 }

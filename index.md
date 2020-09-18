@@ -10,7 +10,7 @@ title: home
 
 <img src="assets/images/me.jpeg" width="200" height="260" id="me">
 
-**About me**
+### About me
 
 I'm an aspiring linguist and a recent graduate from Rutgers University with a B.A. in linguistics. I work primarily in syntax and semantics, with broad-ranging interests aimed at understanding the cognitive representations of linguistic knowledge and linguistic processes.
 
@@ -28,7 +28,7 @@ On my gap year, I'm starting a new research project exploring the computational 
 
 ___
 
-**In my free time...**
+### In my free time...
 
 This past year, I've started learning to knit, and I'm absolutely loving it. I also spend copious amounts of time reading anything I can get my hands on (and not just about linguistics). Sometimes, I write. Maybe I'll get around to sharing some of it here one of these days.  
 

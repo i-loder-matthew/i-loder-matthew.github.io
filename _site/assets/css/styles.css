@@ -1,23 +1,29 @@
-.site-title { font-family: 'Bungee Shade', cursive; text-align: center; font-size: 2em; padding-top: 30px; }
+.site-title { font-family: 'Bungee Shade', cursive; font-size: 2em; text-align: center; color: #4056a1; overflow: auto; top: 0; left: 0; padding: 0; height: 50%; width: 35%; position: fixed; background-color: #efe2ba; display: flex; align-items: center; justify-content: center; }
 
-body { /* font-family: 'Hind Madurai', sans-serif; */ font-family: 'Vollkorn', serif; background-color: #f0f0f0; /*background-color: #c2eaba; background-image: linear-gradient(319deg, #c2eaba 0%, #c5f4e0 37%, #efc2cf 100%);*/ }
+#name { padding: 25px; }
 
-#me { padding: 10px; margin-right: 10px; float: left; border-radius: 15px; }
+body { /* font-family: 'Hind Madurai', sans-serif; */ font-family: 'Karla', sans-serif; background-color: #d1e0e8; color: #353535; /*background-color: #c2eaba; background-image: linear-gradient(319deg, #c2eaba 0%, #c5f4e0 37%, #efc2cf 100%);*/ }
 
-a:link, a:visited { color: black; text-decoration: none; font-size: 120%; }
+#me { padding: 10px; margin-left: 20px; float: right; border-radius: 15px; }
 
-a.current { color: grey; }
+a:link, a:visited { color: #efefef; text-decoration: none; font-size: 120%; font-weight: bold; }
 
-.sidebar { margin-left: 40px; padding: 0; width: 250px; position: fixed; height: 100%; overflow: auto; }
+a.current { color: #fff6c7; }
+
+.sidebar { z-index: 0; top: 50%; left: 0; height: 100%; width: 35%; position: fixed; overflow: auto; background-color: #5a6bad; }
+
+.sidebar-text { position: fixed; top: 68%; left: 15%; }
 
 .sidebar a { display: block; padding: 3px; text-align: center; }
 
-div.content { margin-left: 290px; padding: 80px 30px 10px 10px; height: 1000px; max-width: 800px; font-size: 130%; }
+div.content { min-height: 90%; top: 10%; right: 10%; width: 50%; font-size: 105%; line-height: 1.5em; position: absolute; }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 500px) { .sidebar { width: 100%; height: auto; position: relative; } .sidebar a { float: left; } div.content { margin-left: 0; } }
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 400px) { .sidebar a { text-align: center; float: none; } }
+
+.section-heading { color: #3c6c6e; }
 
 /*# sourceMappingURL=styles.css.map */
