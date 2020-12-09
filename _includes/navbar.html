@@ -1,0 +1,25 @@
+<div class="navbar">
+
+  <div class="navbar-title">
+    <h1>MATTHEW IVER LODER</h1>
+
+  </div>
+
+  <div class="navbar-content">
+    {% for item in site.data.nav_content %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}class="current" {% endif %}>
+        {{ item.name }}
+      </a>
+    {% endfor %}
+  </div>
+
+  <div class="navbar-extras">
+    {% for item in site.data.nav_extras %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}class="current" {% endif %}>
+        {{ item.name }}
+      </a>
+    {% endfor %}
+  </div>
+
+
+</div>
