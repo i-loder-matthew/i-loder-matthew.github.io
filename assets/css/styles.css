@@ -1,0 +1,21 @@
+body { color: #d6d6d6; background-color: #5e5e5e; font-family: 'Fraunces', serif; font-weight: 400; }
+
+.navbar { width: 100%; height: auto; position: fixed; }
+
+.navbar-title { position: absolute; top: 0; left: 20px; }
+
+.navbar-content { position: absolute; top: 20px; right: 520px; }
+
+.navbar-extras { position: absolute; top: 20px; right: 40px; }
+
+.navbar a { display: block; padding: 4px; }
+
+a:link, a:visited { color: #353535; text-decoration: none; font-weight: bold; font-family: 'Open Sans', sans-serif; }
+
+a.current { color: #fff6c7; }
+
+.content-container { position: absolute; top: 200px; width: 100%; height: auto; }
+
+.content { width: auto; margin: 0 35rem 0 5rem; font-size: 1.25em; }
+
+/*# sourceMappingURL=styles.css.map */
