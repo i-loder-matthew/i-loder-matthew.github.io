@@ -1,4 +1,4 @@
-body { color: #353535; background-color: #ababab; font-family: 'Texturina', serif; }
+body { color: #d6d6d6; background-color: #5e5e5e; font-family: 'Fraunces', serif; font-weight: 400; }
 
 .navbar { width: 100%; height: auto; position: fixed; }
 
@@ -10,7 +10,7 @@ body { color: #353535; background-color: #ababab; font-family: 'Texturina', seri
 
 .navbar a { display: block; padding: 4px; }
 
-a:link, a:visited { color: #353535; text-decoration: none; font-weight: bold; }
+a:link, a:visited { color: #353535; text-decoration: none; font-weight: bold; font-family: 'Open Sans', sans-serif; }
 
 a.current { color: #fff6c7; }
 
